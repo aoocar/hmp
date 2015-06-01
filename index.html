@@ -4,7 +4,13 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0,       user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
    <title>绘品网官方网站</title>
     <link   href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/beforeafter-settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/beforeafter-content.css" media="screen" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/freshline/jquery.freshline.beforeafter.js"></script>
+    <script type="text/javascript" src="js/freshline/animadrag.js">	</script>
+    <script type="text/javascript" src="js/freshline/jquery.freshline.demo.js">	</script>
 </head>
 <body>
 <div class="header">
@@ -30,7 +36,39 @@
 
    <div  class="main_top">
      <div class="main_topleft">
-	   <img src="img/banner.jpg"  width="738" height="394" alt="" />
+	   <!-- banner代码 开始 -->
+              <div id="banner" class="beforeafter_slider ">
+	   <ul>
+		<li>
+		    <img src="img/beforeafter/1before.jpg" alt="img/beforeafter/1after.jpg" />
+			<div id="textbox_1" class="before">
+				<div id="title_1b" class="fadeup">现在</div>
+			</div>
+			<div id="textbox_1" class="after">
+				<div id="title_1b" class="fadeup">未来</div>
+			</div>
+		</li>
+		<li><img src="img/beforeafter/2before.jpg" alt="img/beforeafter/2after.jpg" />
+		</li>
+		<li><img src="img/beforeafter/3before.jpg" alt="img/beforeafter/3after.jpg">
+		</li>
+		<li><img src="img/beforeafter/4before.jpg" alt="img/beforeafter/4after.jpg" />
+		</li>
+		<li ><img src="img/beforeafter/5before.jpg" alt="img/beforeafter/5after.jpg" />
+		</li>
+		<li ><img src="img/beforeafter/6before.jpg" alt="img/beforeafter/6after.jpg" />
+		</li>
+		<li ><img src="img/beforeafter/7before.jpg" alt="img/beforeafter/7after.jpg" />
+		</li>
+		<li ><img src="img/beforeafter/8before.jpg" alt="img/beforeafter/8after.jpg" />
+		</li>
+		<li ><img src="img/beforeafter/9translate_details.jpg" alt="img/beforeafter/9translate_details.jpg">
+		</li>
+		<li ><img src="img/beforeafter/10before.jpg" alt="img/beforeafter/10after.jpg" />
+		</li>
+	  </ul>
+          </div>
+<!-- banner代码 结束 -->
 	 </div>
 	 <div class="main_topright">
 	   <ul>
@@ -64,6 +102,24 @@
 <div class="footer">
  <div class="footertop"></div>
 </div>
-
+<!-- banner控制js -->
+<script type="text/javascript">
+	$(function() {
+		   $.noConflict();
+		  jQuery('#demo-content').freshlineDemo_init();
+		jQuery('#banner').beforeAfter_slider(
+			{			
+				width:738,
+				height:394,
+				banner_bordersize:1,
+				start_from:'right',
+				start_pos:230,
+				follow:true,
+				timer:4000
+			}
+		)								
+	});
+</script> 
+<!-- banner控制js -->
 </body>
 </html>

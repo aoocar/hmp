@@ -1,0 +1,170 @@
+/*----------------------------------------------------------------------------- 
+
+- Before-After -
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	07/27/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------
+  TexBoxes includes Divs (images, texts etc.) 
+  Add as many Textboxes as you wish. Even more on one slide
+  Divs in Textboxes are relative positioned
+  Each Div is animated at start of the slide. 
+  One by one, with delay set via HTMML.
+    
+  Transition Classes (Defined in the HTML as Class on DIV's):
+  slidedown, slideup, slideleft, slideright
+  fadedown, fadeup, fadeleft and faderight   
+--------------------------------------------------*/
+
+/*--------------------------------------------------
+	-	 BANNER 1 - TextBox 1
+-----------------------------------------------------*/
+#textbox_1 {
+	width:180px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+#textbox_1 #title_1b {	
+	font-size:22px;	
+	font-weight:normal;
+	text-align:center;
+	color: #fff;	
+	left:687px;
+	top:169px;
+	position:absolute;
+}
+
+
+
+/*--------------------------------------------------
+	-	 BANNER 2 - TextBox 2
+-----------------------------------------------------*/
+#textbox_2 {
+	width:780px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+
+/*--------------------------------------------------
+	-	 BANNER 3 - TextBox 3
+-----------------------------------------------------*/
+#textbox_3 {
+	width:280px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+/*--------------------------------------------------
+	-	 BANNER 4 - TextBox 4
+-----------------------------------------------------*/
+#textbox_4 {
+	width:680px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+}
+
+/*--------------------------------------------------
+	-	 BANNER 5 - TextBox 5
+-----------------------------------------------------*/
+#textbox_5 {
+	width:880px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+/*--------------------------------------------------
+	-	 BANNER 1/6 - TextBox 6
+-----------------------------------------------------*/
+#textbox_6 {
+	width:880px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+/*--------------------------------------------------
+	-	 BANNER 1/7 - TextBox
+-----------------------------------------------------*/
+#textbox_7 {
+	width:220px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:200;
+}
+
+
+/*--------------------------------------------------
+	-	 BANNER 1/8 - TextBox
+-----------------------------------------------------*/
+#textbox_8 {
+	width:351px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:200;
+}
+
+/*--------------------------------------------------
+	-	 BANNER 1/9 - TextBox
+-----------------------------------------------------*/
+#textbox_9 {
+	width:890px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+/*--------------------------------------------------
+	-	 BANNER 1/10 - TextBox 
+-----------------------------------------------------*/
+#textbox_10 {
+	width:880px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:800;
+}
+
+
+
